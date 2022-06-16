@@ -27,29 +27,29 @@
                 <form action="" method="get">
                     <div>
                         <label for="firstName">First Name</label>
-                        <input id="firstName" name="firstName" type="text">
+                        <input id="firstName" name="firstName" type="text" required>
 
                         <label for="email">Email</label>
-                        <input id="email" name="email" type="email">
+                        <input id="email" name="email" type="email" required>
 
                         <label for="password">Password</label>
-                        <input type="password" name="password" id="password" class="error">
+                        <input type="password" name="password" id="password" class="error" required>
                     </div>
                     <div>
                         <label for="lastName">Last Name</label>
-                        <input id="lastName" name="lastName" type="text">
+                        <input id="lastName" name="lastName" type="text" required>
 
                         <label for="tel">Phone Number</label>
-                        <input id="tel" type="tel" name="tell">
+                        <input id="tel" type="tel" name="tell" required>
 
                         <label for="confirmPassword">Confirm Password</label>
-                        <input type="password" name="confirmPassword" id="confirmPassword" class="error">
+                        <input type="password" name="confirmPassword" id="confirmPassword" class="error" required>
+                    </div>
+                    <div class="bottom-section">
+                        <button class="btn" type="submit">Create Account</button>
+                        <p>Already have an account? <span>Log in</span></p>
                     </div>
                 </form>
-            </div>
-            <div class="bottom-section">
-                <button class="btn" type="submit">Create Account</button>
-                <p>Already have an account? <span>Log in</span></p>
             </div>
         </div>
     </div>
