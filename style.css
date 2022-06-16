@@ -77,13 +77,33 @@ h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 20px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .bottom-section {
     padding: 30px;
 }
 
-.validation {
-    display: inline-block;
+form {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 50px;
+  margin-left: 25px;
 }
+
+input, label {
+    display: block;
+    border-radius: 5px;
+    border-color: #E5E7EB;
+    border-width: thin;
+    padding: 5px;
+}
+
+.validation p {
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
