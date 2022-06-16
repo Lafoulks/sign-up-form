@@ -8,7 +8,7 @@ body {
     justify-content: center;
 }
 
-.container {
+.main-container {
     display: flex;
     justify-content: center;
     background-color: white;
@@ -26,7 +26,7 @@ body {
 .dark-div {
     background-color: black;
     opacity: .5;
-    margin-top: 200px;
+    margin-top: 155px;
     height: 130px;
     display: flex;
     justify-content: center;
@@ -44,3 +44,14 @@ body {
     height: 100px;
     margin-top: 10px;
  }
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section {
+    height: 35%;
+    background-color:rgb(237, 241, 245);
+}
