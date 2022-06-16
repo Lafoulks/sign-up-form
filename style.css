@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 60%;
+    height: 100vh;
+}
+
+.sidebar {
+    background-image: url(leaves.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60%;
+}
+
+.dark-div {
+    background-color: black;
+    opacity: .5;
+    margin-top: 200px;
+    height: 130px;
+}
