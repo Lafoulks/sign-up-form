@@ -66,8 +66,12 @@ h6 {
 .btn {
     background-color: #596D48;
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px 45px 15px 45px;
     color: white;
+    border: none;
+    font-weight: bolder;
+    font-size: 15px;
+    box-shadow: 2px 2px rgb(231, 227, 227);
 }
 
 .top-section {
@@ -107,3 +111,7 @@ input, label {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+input:focus {
+    border: 1px solid blue;
+    outline: none;
+}
