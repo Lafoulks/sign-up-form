@@ -19,11 +19,11 @@
         </div>
         <div class="info-container">
             <div class="top-section">
-                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest reamsd. Sign up now to get started.</p>
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
                 <p>You <em>know</em> you want to.</p>
             </div>
             <p class="p"> Let's do this!</p>
-            <form action="" method="get">
+            <form id="form" action="." method="get">
                 <div>
                     <label for="firstName">First Name</label>
                     <input id="firstName" name="firstName" type="text" required>
@@ -32,7 +32,8 @@
                     <input id="email" name="email" type="email" required>
 
                     <label for="password">Password</label>
-                    <input type="password" name="password" id="password" class="error" required>
+                    <input type="password" name="password" id="password" required>
+                    <p id="message"></p>
                 </div>
                 <div>
                     <label for="lastName">Last Name</label>
@@ -42,7 +43,7 @@
                     <input id="tel" type="tel" name="tell" required>
 
                     <label for="confirmPassword">Confirm Password</label>
-                    <input type="password" name="confirmPassword" id="confirmPassword" class="error" required>
+                    <input type="password" name="confirmPassword" id="confirmPassword" required>
                 </div>
                 <div class="bottom-section">
                     <button class="btn" type="submit">Create Account</button>
